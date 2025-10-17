@@ -1,0 +1,20 @@
+/// <reference path="./.sst/platform/config.d.ts" />
+
+export default $config({
+  app(input) {
+    return {
+      name: "my-portfolio",
+      removal: input?.stage === "production" ? "retain" : "remove",
+      protect: ["production"].includes(input?.stage),
+      home: "aws",
+    };
+  },
+  async run() {
+    new sst.aws.Nextjs("MyWeb", {
+       domain: {
+        name: "pauloba.com",        // 👈 your domain
+        aliases: ["www.pauloba.com"], // 👈 optional subdomain
+      },
+    });
+  },
+});
