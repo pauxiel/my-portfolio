@@ -13,7 +13,7 @@ const navItems: NavItem[] = [
   // internal blog route example
   { href: '/Projects', name: 'Project' },
   // external blog example (second "blog")
-  { href: 'https://google.com', name: 'blog', external: true },
+  { href: 'https://blog.pauloba.com/', name: 'blog', external: true },
 ]
 
 export function Navbar() {
