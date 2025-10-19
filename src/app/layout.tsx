@@ -16,15 +16,17 @@ const GeistMono = Source_Code_Pro({ subsets: ['latin'], variable: '--font-geist-
 export const metadata: Metadata = {
   // metadataBase: new URL(baseUrl),
   title: {
-    default: 'Sparkaflame Ministry',
-    template: '%s | Sparkaflame Ministry',
+    default: 'Paul Obayuwana',
+    template: '%s | Paul Obayuwana',
   },
-  description: 'ignite a revival, fuel spiritual growth and lift the banner of christ',
+  description:
+    'Software engineer specializing in cloud and DevOps — infrastructure as code, CI/CD, containers, and observability.',
   openGraph: {
-    title: 'Sparkaflame Ministry',
-    description: 'ignite a revival, fuel spiritual growth and lift the banner of christ',
+    title: 'Paul Obayuwana — Cloud & DevOps',
+    description:
+      'Software engineer specializing in cloud and DevOps — infrastructure as code, CI/CD, containers, and observability.',
     // url: baseUrl,
-    siteName: 'Sparkaflame Ministry',
+    siteName: 'Paul Obayuwana',
     locale: 'en_US',
     type: 'website',
   },
@@ -70,3 +72,6 @@ export default function RootLayout({
     </html>
   )
 }
+
+
+

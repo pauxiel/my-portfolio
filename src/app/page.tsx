@@ -1,29 +1,30 @@
 
 import Image from 'next/image';
-// import praying from 'public/praying.jpg';
-// import fire from 'public/fire.jpg';
-// import bowing from 'public/bowing.jpg'
-// import layinghand from 'public/laying-hand.jpg'
-// import ignite from 'public/ignite.jpg'
-// import cry from 'public/cry.jpg'
 
 
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
+      {/* <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
         Sparkaflame🔥
-      </h1>
+      </h1> */}
+
+      <h2 className="mb-3 text-lg font-semibold text-neutral-700 dark:text-neutral-300">
+         Paul Obayuwana · Software Engineer · Cloud & DevOps
+      </h2>
+
       <div className='prose prose-neutral dark:prose-invert'>
             <p className="mb-4">
-        Sparkflame is a vibrant community passionately dedicated to igniting the flames of faith within the hearts of young men and women. we believe in the power of prayer and cultivating spiritual growth through sound doctrine and transformative teaching. 
+            I help teams design and operate reliable cloud systems — infrastructure
+          as code, CI/CD pipelines, containerized deployments, and end-to-end observability. I also build production web apps and platforms. Here are a few recent projects and highlights.
       </p>
       </div>
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          we are based in Niagara falls, Canada and in patnership with family care center ministry.. 
-          {/* and committed to discipleship through sharing God's Word via our blog and social media platforms. Join our community and be part of this movement! */}
+          I write about cloud architecture and DevOps best practices. Browse my
+          articles for practical guides, or <strong>contact me</strong> to discuss
+          consulting or a collaboration.
         </p>
       </div>
       <div className="my-8">
